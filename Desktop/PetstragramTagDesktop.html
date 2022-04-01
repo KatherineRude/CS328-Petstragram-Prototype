@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <title>
+            PetstragramTagDesktop
+        </title>
+        <link rel="stylesheet" type="text/css" href= "../Petstragram.css">
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <h2>
+              <center><a href="../Petstragram.html"style="font-size:xx-large">Petstragram</a></center>
+              <img src="../Pictures/UserPhoto.jpg" alt="ProfilePic" style="width:50px;height:50px">Username<br>
+                <a href="PetstragramTagDesktop.html"><button type="button">Post</button></a><button type="button">View Posted Photos</button><br><br>
+                Followed Tags
+              <h2>
+        </div>
+        
+        <div class = "main">
+            <input id="fileInput" type="file" style="display:none;" />
+            <input type="button" value="Post" style="height: 50px;width: 200px;background-color: papayawhip;" onclick="document.getElementById('fileInput').click();" />	
+            <p>
+                Tags:
+            </p>
+
+                    <input type ="checkbox" id = "dog">
+                    <label for="dog">Dog</label><br>
+
+                    <input type ="checkbox" id = "cat">
+                    <label for="cat">Cat</label><br>
+
+                    <input type ="checkbox" id = "pangolin">
+                    <label for="pangolin">Pangolin</label><br>
+
+                    <input type ="text" id = "other">
+                    <label for="other">Other?</label><br>
+
+             <!--TODO Put a dog picture here-->
+			<a href="../Petstragram.html"><input type = "submit" value="Submit"></a>
+        </div>
+    </body>
+

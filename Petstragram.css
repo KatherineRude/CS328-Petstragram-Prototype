@@ -1,0 +1,68 @@
+body {
+    background-color: papayawhip;
+    font-family: Arial;
+}
+h1 {
+    font-size: xx-large;
+}
+h2 {
+    font-size: larger;
+}
+button{
+    background-color: papayawhip;
+    font-family: Arial;
+    
+}
+.mobilenav{
+    background-color: sienna;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.mobilenav a{
+    font-size: 60px;
+}
+.mobilenav h2 {
+    height: 40px;
+    width: 60px;
+}
+.topnav {
+    background-color: sienna;
+    overflow: hidden;
+}
+
+.main {
+    margin-left:40%;
+}
+a {
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+}
+
+a:hover{
+    color: saddlebrown;
+}
+
+#loginBox{
+    margin: auto;
+    width:10%;
+    }
+#signup{
+    background-color: white;
+    font-family: Arial
+    }
+
+    label {
+        cursor: pointer;
+        border: 1px;
+        height: 50px;
+        width: 200px;
+        /* Style as you please, it will become the visible UI component. */
+     }
+     
+     #upload-photo {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+     }
